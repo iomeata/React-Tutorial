@@ -36,7 +36,7 @@ console.log(multiply(4));
 <details>
   <summary>2. Exports and Imports Defaults</summary>
 
-With Defaults:
+With Default:
 
 ```Javascript
 const person = {
@@ -53,7 +53,7 @@ import person from "./person.js";
 import prs from "./person.js";
 ```
 
-Without Defaults:
+Without Default:
 
 ```Javascript
 export const clean = () => {
