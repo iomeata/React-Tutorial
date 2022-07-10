@@ -68,6 +68,8 @@ export const cook = () => {
 
 ```Javascript
 import { clean, cook } from "./activities.js";
+import { clean as cleanHouse, cook as cookFood } from "./activities.js";
+import * as activitiesObject from "./activities.js";
 ```
 
 </details>
