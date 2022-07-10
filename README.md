@@ -9,7 +9,7 @@ Django-RF-Docs-Tutorial By Ifeanyi Omeata
 
 ---
 
-### [1-INTRODUCTION](#)
+### [1-JAVASCRIPT BASICS](#)
 
 ---
 
