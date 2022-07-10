@@ -18,7 +18,7 @@ React-Tutorial by Ifeanyi Omeata
   <summary>1. Arrow Functions</summary>
 
 ```Javascript
-  const name = "Ifeanyi";
+const name = "Ifeanyi";
 console.log(name)
 
 const printMyName = (name) => {
