@@ -35,7 +35,7 @@ console.log(multiply(4));
 </details>
 
 <details>
-  <summary>2. Exports and Imports Defaults</summary>
+  <summary>2. Exports and Imports</summary>
 
 With Default:
 
@@ -70,6 +70,38 @@ export const cook = () => {
 import { clean, cook } from "./activities.js";
 import { clean as cleanHouse, cook as cookFood } from "./activities.js";
 import * as activitiesObject from "./activities.js";
+```
+
+</details>
+
+<details>
+  <summary>3. Classes</summary>
+
+```Javascript
+class Human {
+  constructor() {
+    this.gender = 'male';
+  }
+
+  printGender() {
+    console.log(this.gender);
+  }
+}
+
+class Person extends Human {
+  constructor() {
+    super();
+    this.name = 'Ifeanyi';
+  }
+
+  printMyName() {
+    console.log(this.name);
+  }
+}
+
+const person = new Person();
+person.printMyName();
+person.printGender();
 ```
 
 </details>
