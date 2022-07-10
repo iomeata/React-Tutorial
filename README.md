@@ -10,9 +10,10 @@ React-Tutorial by Ifeanyi Omeata
 
 ---
 
+<!--
 <details>
   <summary>OPEN</summary>
-<hr>
+<hr> -->
 
 <details>
   <summary>1. Arrow Functions</summary>
@@ -90,8 +91,8 @@ INSTALLED_APPS = [
 ```
 
 </details> -->
-
-</details>
+<!--
+</details> -->
 
 ---
 
