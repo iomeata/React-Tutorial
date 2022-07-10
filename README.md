@@ -34,27 +34,44 @@ console.log(multiply(4));
 </details>
 
 <details>
-  <summary>2. Install Django and Django REST framework</summary>
+  <summary>2. Exports and Imports Defaults</summary>
 
-```python
-  pip install django django-rest-framework django-shortcuts
+With Defaults:
+
+```Javascript
+const person = {
+  name: "Ifeanyi",
+  age: 23,
+  hobbies: ["Reading", "Coding", "Gaming"]
+}
+
+export default person;
 ```
 
-```python
-  pip freeze
+```Javascript
+import person from "./person.js";
+import prs from "./person.js";
 ```
 
-```python
-  pip install -r requirements.txt
+Without Defaults:
+
+```Javascript
+export const clean = () => {
+  console.log("Cleaning");
+}
+
+export const cook = () => {
+  console.log("Cooking");
+}
 ```
 
-```python
-  pip freeze > requirements.txt
+```Javascript
+import { clean, cook } from "./activities.js";
 ```
 
 </details>
 
-<details>
+<!-- <details>
   <summary>6. Add Django Rest Framework and App to settings</summary>
 
 [here](https://github.com/iomeata/Django-API-Tutorial-1/commit/388d9ef90e787e6836b472370251500993521611)
@@ -72,7 +89,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-</details>
+</details> -->
 
 </details>
 
